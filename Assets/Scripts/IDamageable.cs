@@ -1,5 +1,5 @@
 public interface IDamageable
 {
     float Health { get; set; }
-    void Damage(float damage);
+    void GetDamage(float damage);
 }
